@@ -226,3 +226,54 @@ position: absolute;
 	line-height: 150px;
 	font-family: 'youyuan';
 }
+#all #skillsandexperience {
+	width: 1100px;
+	height: 500px;
+margin-top: 50px;
+margin-left: 100px;
+margin-bottom: 100px;
+}
+#all #skillsandexperience .left{
+	width: 550px;
+	position: absolute;
+	background-color: white;
+	height: 500px;
+}
+#all #skillsandexperience .right{
+	width: 550px;
+	position: absolute;
+	background-color: #202121;
+	height: 500px;
+	margin-left: 550px;
+}
+#all #skillsandexperience .left p{
+	font-size: 18px;
+	padding-bottom: 20px;
+	color: #636363;
+}
+#all #skillsandexperience .left .skills{
+	width: 100%;
+	height: 80px;
+	font-size: 40px;
+	line-height: 80px;
+	text-align: center;
+	font-weight: bold;
+	color:#00008B;
+	text-shadow: 5px 5px 5px black;
+
+}
+#all #skillsandexperience .right p{
+	font-size: 16px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+#all #skillsandexperience .right .experience{
+	width: 100%;
+	height: 80px;
+	font-size: 40px;
+	line-height: 80px;
+	text-align: center;
+	font-weight: bold;
+	color:#CAE1FF;
+text-shadow: 5px 5px 5px white;
+}
