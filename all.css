@@ -165,10 +165,10 @@ transition: transform 2s;
 	
 }
 #all #myself{
-	margin-left: 400px;
+	margin-left: 850px;
 width: 900px;
 height: 500px;
-background-color: #f4f7f6;
+background-color: #F7F7F7;
 overflow: hidden;
 }
 #all #myself #personal{
@@ -176,7 +176,7 @@ overflow: hidden;
 position: absolute;
 	width: 400px;
 	height: 400px;background-color: white;
-	margin-top:50px;
+	margin-top:30px;
 }
 #all #myself #personal h3{
 	font-size: 24px;
@@ -226,54 +226,55 @@ position: absolute;
 	line-height: 150px;
 	font-family: 'youyuan';
 }
-#all #skillsandexperience {
-	width: 1100px;
-	height: 500px;
-margin-top: 50px;
-margin-left: 100px;
-margin-bottom: 100px;
-}
-#all #skillsandexperience .left{
-	width: 550px;
+#all #skillsandexperience{
+position: absolute;
+width: 850px;
+height: 500px;
+background-color:#F7F7F7;
+} 
+#all #skillsandexperience div{
+		margin-top: 99px;
+	width: 700px;
+	height: 450px;
 	position: absolute;
-	background-color: white;
-	height: 500px;
+	margin-left: 50px;
 }
-#all #skillsandexperience .right{
-	width: 550px;
-	position: absolute;
-	background-color: #202121;
-	height: 500px;
-	margin-left: 550px;
-}
-#all #skillsandexperience .left p{
-	font-size: 18px;
-	padding-bottom: 20px;
-	color: #636363;
-}
-#all #skillsandexperience .left .skills{
-	width: 100%;
-	height: 80px;
-	font-size: 40px;
-	line-height: 80px;
-	text-align: center;
-	font-weight: bold;
-	color:#00008B;
-	text-shadow: 5px 5px 5px black;
+#all #skillsandexperience div img{
 
+	width: 700px;
+	height: 400px;
 }
-#all #skillsandexperience .right p{
-	font-size: 16px;
-	padding-bottom: 10px;
-	color: #fff;
+#all #skills{
+	          -webkit-transform-origin: bottom;
+            -webkit-transition: -webkit-transform 1s linear;
 }
-#all #skillsandexperience .right .experience{
-	width: 100%;
-	height: 80px;
-	font-size: 40px;
-	line-height: 80px;
+#all #experience{
+	   -webkit-transform-origin: bottom;
+            -webkit-transition: -webkit-transform 1s linear;
+            -webkit-transform: rotateX(90deg);
+}
+#all .btton{
+	position: absolute;
+}
+#all #btton1,#btton2{
+	display: inline-block;
+	width: 250px;
+	height: 100px;
+	border-radius: 20%;
+	line-height: 100px;
 	text-align: center;
-	font-weight: bold;
-	color:#CAE1FF;
-text-shadow: 5px 5px 5px white;
+	cursor: pointer;
+	font-size: 34px;
+	font-weight: 700;
+}
+#btton1{
+	margin-left: 80px;
+/*background-color: rgba(254,254,65,0.3);*/
+}
+#btton2{
+	margin-left: 150px;
+	/*background-color: rgba(255,106,106,0.3);*/
+}
+#btton1:hover,#btton2:hover{
+color: red;
 }
